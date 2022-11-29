@@ -1,0 +1,81 @@
+body {
+  background-color: darkgoldenrod;
+  font-family: "Poppins", sans-serif;
+}
+
+.create {
+  background-color: darkcyan;
+  border: none;
+  width: 100px;
+  height: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+.name {
+  float: right;
+  margin-top: -20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.box2 {
+  width: 300px;
+  height: 350px;
+  background-color: azure;
+  display: none;
+  position: absolute;
+  top: 26%;
+  left: 45%;
+}
+.box2 .function-buttons {
+  width: 100%;
+  height: 25px;
+  background-color: darkcyan;
+}
+.box2 .function-buttons .fa-xmark {
+  float: right;
+  font-size: 26px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.box2 .function-buttons .fa-check {
+  float: right;
+  font-size: 26px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.box2 textarea {
+  width: 87%;
+  height: 320px;
+  border: none;
+  resize: vertical;
+  outline: none;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.note {
+  width: 270px;
+  height: 300px;
+  background-color: white;
+  float: left;
+  box-shadow: 1px 0px 7px black;
+  margin: 20px 20px 20px 20px;
+}
+.note:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in;
+}
+.note .strap {
+  width: 100%;
+  height: 30px;
+  background-color: aqua;
+}
+.note p {
+  padding: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
